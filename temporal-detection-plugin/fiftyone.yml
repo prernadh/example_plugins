@@ -1,0 +1,12 @@
+name: temporal-detection
+type: plugin
+version: 1.0.0
+description: Temporal data explorer with label timeline heatmap and line charts, bidirectional video sync
+fiftyone:
+  version: ">=0.21.0"
+panels:
+  - TemporalDataExplorer
+operators:
+  - get_temporal_fields
+  - get_frame_values
+  - get_detection_counts

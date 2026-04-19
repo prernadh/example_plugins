@@ -1,0 +1,22 @@
+docs/
+*venv/
+*.egg-info/
+*.DS_Store
+*.pyc
+build/
+__pycache__/
+.ipynb_checkpoints/
+
+# Local dev scripts
+start_foe_dev.sh
+
+# Plugin zip (built locally for deployment testing)
+*.zip
+
+# Environment variables and credentials
+.env
+pyproject.toml
+gcp-credentials.json
+azure-storage.ini
+projects/grouped-datasets-delegated-ops/*.egg-info/
+uv.lock
