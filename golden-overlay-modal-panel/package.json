@@ -1,0 +1,22 @@
+{
+  "name": "@voxel51/golden-overlay",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "fiftyone": {
+    "script": "dist/index.umd.js"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "react": "^18.2.0",
+    "vite-plugin-externals": "^0.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "packageManager": "yarn@4.10.3"
+}

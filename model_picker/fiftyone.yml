@@ -1,0 +1,16 @@
+name: "@prernadh/model_picker"
+description: This plugin allows you to pick the models you want to work with and populate the corresponding fields in the sidebar
+version: 1.0.0
+fiftyone:
+  version: "*"
+url: https://github.com/prernadh/model_picker.git
+license: Apache 2.0
+operators:
+  # - model_picker
+  - apply_model_picker
+  - get_label_fields_metadata
+  - get_label_fields_statistics
+  - update_field_notes
+  - save_model_picker_view
+  - list_model_picker_views
+  - delete_model_picker_view

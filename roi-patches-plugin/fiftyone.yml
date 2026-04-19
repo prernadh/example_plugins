@@ -1,0 +1,8 @@
+name: "@mgustineli/roi-patches"
+description: Tile images into a grid of ROI patches for region-based analysis
+version: 1.0.0
+fiftyone:
+  version: ">=0.25.0"
+operators:
+  - create_roi_patches
+  - clear_roi_patches

@@ -1,0 +1,10 @@
+name: "@voxel51/hello-world"
+description: An example of JS and Python components in a single plugin
+version: 1.0.0
+fiftyone:
+  version: "*"
+url: https://github.com/voxel51/fiftyone-plugins/tree/main/plugins/hello-world
+license: Apache 2.0
+operators:
+  - count_samples
+  - show_alert

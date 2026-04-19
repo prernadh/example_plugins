@@ -1,0 +1,11 @@
+name: "@voxel51/golden-overlay"
+type: plugin
+version: "1.0.0"
+description: "Overlay a golden reference image on samples for manufacturing defect detection"
+fiftyone:
+  version: "*"
+panels:
+  - GoldenOverlayPanel
+operators:
+  - get_filepaths
+  - get_current_sample
